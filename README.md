@@ -1,1 +1,4 @@
-# cb_mychef-client
+# mychef-client
+
+TODO: Enter the cookbook description here.
+
