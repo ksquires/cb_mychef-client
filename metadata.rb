@@ -4,7 +4,7 @@ maintainer_email 'ksquires@gmail.com'
 license 'all_rights'
 description 'Installs/Configures mychef-client'
 long_description 'Installs/Configures mychef-client'
-version '0.3.1'
+version '0.3.2'
 
 depends 'logrotate'
 depends 'chef-client', '>= 7.0.2'
@@ -19,5 +19,5 @@ if respond_to?(:issues_url)
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-source_url 'https://github.com/ksquires/mychef-client' \
+source_url 'https://github.com/ksquires/cb_mychef-client' \
 if respond_to?(:source_url)
