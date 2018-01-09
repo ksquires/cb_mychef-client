@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures mychef-client'
 long_description 'Installs/Configures mychef-client'
-version '0.2.15'
+version '0.2.16'
 
 depends 'logrotate'
 depends 'chef-client', '>= 7.0.2'
