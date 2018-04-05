@@ -4,7 +4,7 @@ maintainer_email 'ksquires@gmail.com'
 license 'all_rights'
 description 'Installs/Configures mychef-client'
 long_description 'Installs/Configures mychef-client'
-version '0.3.8'
+version '0.3.11'
 
 depends 'logrotate'
 depends 'chef-client', '>= 7.0.2'

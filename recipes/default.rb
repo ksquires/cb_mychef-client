@@ -11,7 +11,8 @@
 # node.default['chef-client']['config']['log_location'] = STDOUT
 node.normal['chef_client']['interval'] = '3600'
 node.normal['chef_client']['splay'] = '300'
-node.normal['chef-client']['config']['verbose_loggin'] = 'true'
+node.normal['chef-client']['config']['verbose_logging'] = 'true'
+node.normal['chef-client']['log_level'] = :auto
 include_recipe 'chef-client::default'
 include_recipe 'chef-client::config'
 include_recipe 'chef-client::service'
